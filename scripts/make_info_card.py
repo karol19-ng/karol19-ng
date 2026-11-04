@@ -37,22 +37,34 @@ lineas.append(
     f'<line x1="{MARGEN}" y1="{y_linea}" x2="{ANCHO - MARGEN}" y2="{y_linea}" '
     f'stroke="{BORDE}" stroke-width="1"/>'
 )
+   
+estilo = """<style>
+  .fila { opacity: 0; animation: entrar 0.5s ease-out forwards; }
+  @keyframes entrar {
+    from { opacity: 0; transform: translateX(-8px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+</style>
+"""
 
 # Filas: etiqueta en verde, valor en gris
 for i, (etiqueta, valor) in enumerate(FILAS):
     y = MARGEN + (i + 2) * ALTO_LINEA + 10
+    retraso = round(0.3 + i * 0.15, 2)
+
     lineas.append(
-        f'<text x="{MARGEN}" y="{y}" fill="{VERDE}" '
+        f'<text class="fila" style="animation-delay:{retraso}s" x="{MARGEN}" y="{y}" fill="{VERDE}" '
         f'font-family="monospace" font-size="13">{escape(etiqueta)}</text>'
     )
     lineas.append(
-        f'<text x="{X_VALOR}" y="{y}" fill="{GRIS}" '
+        f'<text class="fila" style="animation-delay:{retraso}s" x="{X_VALOR}" y="{y}" fill="{GRIS}" '
         f'font-family="monospace" font-size="13">{escape(valor)}</text>'
     )
-
+    
 svg = (
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{ANCHO}" height="{alto}" viewBox="0 0 {ANCHO} {alto}">\n'
     f'<rect width="{ANCHO}" height="{alto}" rx="10" fill="{FONDO}" stroke="{BORDE}"/>\n'
+    + estilo
     + "\n".join(lineas)
     + "\n</svg>"
 )
