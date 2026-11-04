@@ -1,17 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="232" viewBox="0 0 720 232">
 <rect width="720" height="232" rx="10" fill="#0d1117" stroke="#30363d"/>
+<style>
+  .fila { opacity: 0; animation: entrar 0.5s ease-out forwards; }
+  @keyframes entrar {
+    from { opacity: 0; transform: translateX(-8px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+</style>
 <text x="20" y="44" fill="#39d353" font-family="monospace" font-size="16" font-weight="bold">karol19-ng@github</text>
 <line x1="20" y1="54" x2="700" y2="54" stroke="#30363d" stroke-width="1"/>
-<text x="20" y="78" fill="#39d353" font-family="monospace" font-size="13">Rol</text>
-<text x="150" y="78" fill="#c9d1d9" font-family="monospace" font-size="13">Programadora junior y analista junior de ciberseguridad</text>
-<text x="20" y="102" fill="#39d353" font-family="monospace" font-size="13">Ahora</text>
-<text x="150" y="102" fill="#c9d1d9" font-family="monospace" font-size="13">Buscando trabajo</text>
-<text x="20" y="126" fill="#39d353" font-family="monospace" font-size="13">Stack</text>
-<text x="150" y="126" fill="#c9d1d9" font-family="monospace" font-size="13">Python, C, Java, JavaScript, HTML, CSS, .NET, Docker, Git, Hangfire</text>
-<text x="20" y="150" fill="#39d353" font-family="monospace" font-size="13">Datos</text>
-<text x="150" y="150" fill="#c9d1d9" font-family="monospace" font-size="13">MySQL, PostgreSQL, MongoDB, SQLite, SQL Server, Firebase</text>
-<text x="20" y="174" fill="#39d353" font-family="monospace" font-size="13">Herramientas</text>
-<text x="150" y="174" fill="#c9d1d9" font-family="monospace" font-size="13">VS Code, Google Cloud, NetBeans, Postman, DBeaver, GitHub</text>
-<text x="20" y="198" fill="#39d353" font-family="monospace" font-size="13">Foco</text>
-<text x="150" y="198" fill="#c9d1d9" font-family="monospace" font-size="13">Desarrollo web y de software, ciberseguridad, bases de datos, IA</text>
+<text class="fila" style="animation-delay:0.3s" x="20" y="78" fill="#39d353" font-family="monospace" font-size="13">Rol</text>
+<text class="fila" style="animation-delay:0.3s" x="150" y="78" fill="#c9d1d9" font-family="monospace" font-size="13">Programadora junior y analista junior de ciberseguridad</text>
+<text class="fila" style="animation-delay:0.45s" x="20" y="102" fill="#39d353" font-family="monospace" font-size="13">Ahora</text>
+<text class="fila" style="animation-delay:0.45s" x="150" y="102" fill="#c9d1d9" font-family="monospace" font-size="13">Buscando trabajo</text>
+<text class="fila" style="animation-delay:0.6s" x="20" y="126" fill="#39d353" font-family="monospace" font-size="13">Stack</text>
+<text class="fila" style="animation-delay:0.6s" x="150" y="126" fill="#c9d1d9" font-family="monospace" font-size="13">Python, C, Java, JavaScript, HTML, CSS, .NET, Docker, Git, Hangfire</text>
+<text class="fila" style="animation-delay:0.75s" x="20" y="150" fill="#39d353" font-family="monospace" font-size="13">Datos</text>
+<text class="fila" style="animation-delay:0.75s" x="150" y="150" fill="#c9d1d9" font-family="monospace" font-size="13">MySQL, PostgreSQL, MongoDB, SQLite, SQL Server, Firebase</text>
+<text class="fila" style="animation-delay:0.9s" x="20" y="174" fill="#39d353" font-family="monospace" font-size="13">Herramientas</text>
+<text class="fila" style="animation-delay:0.9s" x="150" y="174" fill="#c9d1d9" font-family="monospace" font-size="13">VS Code, Google Cloud, NetBeans, Postman, DBeaver, GitHub</text>
+<text class="fila" style="animation-delay:1.05s" x="20" y="198" fill="#39d353" font-family="monospace" font-size="13">Foco</text>
+<text class="fila" style="animation-delay:1.05s" x="150" y="198" fill="#c9d1d9" font-family="monospace" font-size="13">Desarrollo web y de software, ciberseguridad, bases de datos, IA</text>
 </svg>
