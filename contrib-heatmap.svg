@@ -377,8 +377,9 @@
 <rect class="c" style="animation-delay:2.1s" x="738" y="38" width="11" height="11" rx="2" fill="#39d353"/>
 <rect class="c" style="animation-delay:2.11s" x="738" y="52" width="11" height="11" rx="2" fill="#161b22"/>
 <rect class="c" style="animation-delay:2.12s" x="738" y="66" width="11" height="11" rx="2" fill="#161b22"/>
-<rect class="c" style="animation-delay:2.13s" x="738" y="80" width="11" height="11" rx="2" fill="#161b22"/>
-<text x="10" y="125" fill="#8b949e" font-family="monospace" font-size="10">70 contribuciones en el último año</text>
+<rect class="c" style="animation-delay:2.13s" x="738" y="80" width="11" height="11" rx="2" fill="#0e4429"/>
+<rect class="c" style="animation-delay:2.14s" x="738" y="94" width="11" height="11" rx="2" fill="#161b22"/>
+<text x="10" y="125" fill="#8b949e" font-family="monospace" font-size="10">71 contribuciones en el último año</text>
 <text x="648" y="125" fill="#8b949e" font-family="monospace" font-size="10" text-anchor="end">Menos</text>
 <rect x="652" y="116" width="11" height="11" rx="2" fill="#161b22"/>
 <rect x="666" y="116" width="11" height="11" rx="2" fill="#0e4429"/>
